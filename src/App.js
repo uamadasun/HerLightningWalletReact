@@ -5,6 +5,7 @@ import Transactions from "./components/Transactions";
 import Buttons from "./components/Buttons";
 
 
+
 const API_KEY = process.env.REACT_APP_API_KEY
 
   
@@ -12,6 +13,7 @@ const API_KEY = process.env.REACT_APP_API_KEY
   const [price, setPrice] = useState(null);
   const [balance, setBalance] = useState(null);
   const [transactions, setTransactions] = useState([]);
+
   
   const getPrice = () => {
      // Axios is a library that makes it easy to make http requests
